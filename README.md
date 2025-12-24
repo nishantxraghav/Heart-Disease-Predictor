@@ -1,13 +1,19 @@
-# Heart Disease Predictor
+# ❤️ Heart Disease Prediction System
 
-This project predicts whether a person is likely to have heart disease using supervised machine learning techniques.  
-It focuses on data analysis, visualization, model training, and evaluation using a medical dataset.
+A Machine Learning–based project that predicts the likelihood of heart disease in a patient using medical attributes. This project demonstrates the complete ML workflow — from data preprocessing and visualization to model training and evaluation.
 
 ---
 
-## Project Structure
+## 📌 Project Overview
 
-Heart-Disease-Prediction/
+Heart disease is one of the leading causes of death worldwide. Early prediction can help in timely diagnosis and treatment.  
+This project uses supervised machine learning techniques to analyze patient health data and predict whether a person is likely to have heart disease.
+
+---
+
+## 📂 Project Structure
+
+Heart-Disease-Predictor/
 
     Heart Disease Predictions.ipynb   - Main Jupyter Notebook  
     dataset.csv                       - Dataset used for training and testing  
@@ -15,12 +21,12 @@ Heart-Disease-Prediction/
 
 ---
 
-## Dataset Description
+## 📊 Dataset Description
 
-The dataset contains medical attributes related to heart health, including:
+The dataset contains medical attributes used to assess heart health, including:
 
 - Age  
-- Sex  
+- Gender  
 - Chest pain type  
 - Resting blood pressure  
 - Cholesterol level  
@@ -30,13 +36,13 @@ The dataset contains medical attributes related to heart health, including:
 - ST depression  
 - Target variable (Heart Disease)
 
-Target values:
-- 1 → Heart disease present  
-- 0 → No heart disease  
+**Target Values**
+- `1` → Heart Disease Present  
+- `0` → No Heart Disease  
 
 ---
 
-## Tools and Libraries Used
+## ⚙️ Tools & Libraries Used
 
 - Python  
 - Jupyter Notebook  
@@ -48,48 +54,20 @@ Target values:
 
 ---
 
-## Machine Learning Workflow
+## 🧠 Workflow
 
-1. Load and inspect the dataset  
-2. Perform data cleaning and preprocessing  
+1. Data loading using Pandas  
+2. Data cleaning and preprocessing  
 3. Exploratory Data Analysis (EDA)  
 4. Feature selection  
-5. Train the machine learning model  
-6. Evaluate model performance  
+5. Model training  
+6. Model evaluation  
 
 ---
 
-## Model Performance
+## 📈 Model Performance
 
-- The trained model shows good prediction accuracy on test data  
-- Performance is evaluated using accuracy score and confusion matrix  
-
----
-
-## How to Run the Project
-
-1. Clone the repository  
-2. Open Jupyter Notebook  
-3. Run the file `Heart Disease Predictions.ipynb`  
+- The trained model achieves reliable accuracy on unseen test data
+- Evaluation performed using accuracy score and confusion matrix
 
 ---
-
-## Future Improvements
-
-- Try advanced models (Random Forest, SVM, XGBoost)  
-- Perform hyperparameter tuning  
-- Convert the notebook into a web application  
-- Add explainable AI techniques (SHAP / LIME)  
-
----
-
-## Author
-
-Nishant Raghav  
-B.Tech CSE (AI & ML)  
-
----
-
-## Disclaimer
-
-This project is created for educational purposes only.
