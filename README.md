@@ -1,4 +1,4 @@
-# Heart Disease Prediction (Machine Learning)
+# Heart Disease Predictor
 
 This project predicts whether a person is likely to have heart disease using supervised machine learning techniques.  
 It focuses on data analysis, visualization, model training, and evaluation using a medical dataset.
