@@ -13,10 +13,11 @@ This project uses supervised machine learning techniques to analyze patient heal
 
 ## 📂 Project Structure
 
-├── Heart Disease Predictions.ipynb # Main Jupyter Notebook
-├── dataset.csv # Dataset used for training & testing
-├── README.md # Project documentation
-
+Heart-Disease-Prediction/
+│
+├── Heart Disease Predictions.ipynb   # Main ML notebook
+├── dataset.csv                       # Dataset
+└── README.md                         # Project documentation
 
 ---
 
